@@ -1,0 +1,1 @@
+subprocess.Popen(['start', 'fsoc.gif'], shell=True)
