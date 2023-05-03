@@ -62,7 +62,7 @@ def inject(filename):
 
 
 init()
-pre=subprocess.Popen(['start', 'fsoc.gif'], shell=True)
+pre=subprocess.Popen(['start', 'giphy.gif'], shell=True)
 process=subprocess.Popen(['start', 'sample.mp3'], shell=True)
 time.sleep(5)
 
