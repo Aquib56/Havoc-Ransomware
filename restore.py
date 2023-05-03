@@ -4,7 +4,7 @@ import cryp
 
 injected_s = 3556020
 
-def restore_all():    
+def restore_all():   
     for filename in glob.iglob(conf.test_folder + '**', recursive=True):
             print(filename)
             if os.path.isfile(filename):
