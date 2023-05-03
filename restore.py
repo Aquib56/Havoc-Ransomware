@@ -21,5 +21,6 @@ def eject(filename):
         orig_name = file.read(s_len)
         orig_file = file.read()
         return orig_file, orig_name
-    
+
 restore_all()
+print("All the files have been restored")
