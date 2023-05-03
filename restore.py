@@ -6,6 +6,7 @@ injected_s = 3556020
 
 def restore_all():    
     for filename in glob.iglob(conf.test_folder + '**', recursive=True):
+            print(filename)
             if os.path.isfile(filename):
                 orig_file, orig_filename = eject(filename)
                 orig = cryp.decrypt(orig_file)
